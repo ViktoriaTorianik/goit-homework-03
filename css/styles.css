@@ -1,0 +1,214 @@
+/* змінні текст фон видідення*/
+:root{
+    --basic-font: #434455;
+    --headlines-font:  #2E2F42;
+    --color-brand: #4D5AE5;
+    --background-color-button: #404BBF;
+   --background-color-section: #F4F4FD;
+   --secondary-font-color: #FFFFFF;
+   --iconfooter: #31D0AA;
+   --text-footer-color:  #e7e9fc;;
+
+}
+
+body{
+font-family: Roboto, sans-serif;
+font-size: 16px;
+color: var(--basic-font);
+background-color: var(--secondary-font-color)
+}
+
+ .list {
+    list-style: none;
+}  
+
+
+/* header styls */
+
+.top-line-nav{
+    color:var(--headlines-font);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.top-line-nav:active{
+    color:var(--background-color-button);
+    
+}
+.top-line-nav:hover, .top-line-nav:focus{
+    color: var(--background-color-button);
+}
+
+.font-adress{
+    color: var(--basic-font);
+    text-decoration: none;
+    font-style:normal;
+    line-height: 1.5;
+letter-spacing: 0.02em;
+    
+}
+.font-adress:focus, .font-adress:hover{
+color: var(--background-color-button);
+}
+
+
+.logo{
+font-family: Raleway, sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-decoration: none;
+text-transform: uppercase;
+}
+.header-logo{
+    color: var(--headlines-font);
+}
+.logoaccent{
+    color: #4D5AE5;
+}
+/* hero */
+.hero{
+    background-color: var(--headlines-font);
+}
+.hero-font{
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--secondary-font-color);
+}
+.hero-button{
+background: var(--color-brand);
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+color:var(--secondary-font-color);
+padding: 16px 32px;
+border-radius: 4px;
+text-align: center;
+min-width: 169px;
+border: 1px solid transparent;
+}
+.hero-button:hover{
+    background-color: var(--background-color-button);
+}
+
+/* advantages */
+
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.scroll{
+    color: var(--headlines-font);
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.scroll-text{
+    color: var(--basic-font);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/* What are we doing */
+
+.title{
+    color: var(--headlines-font);
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+ 
+/* Our Team */
+.section-team{
+    background-color: var(--background-color-section);
+    
+}
+.card{
+    background-color: var(--secondary-font-color);
+}
+
+/* footer */
+.footer{
+    background-color:var(--headlines-font) ;
+}
+.footer-text{
+    color: var(--text-footer-color);
+    line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.footer-logo{
+    color: var(--background-color-section);
+}
+.line-logo{
+    line-height: 1.16;
+}
+/* портфолио */
+.filter-button{
+color: var(--color-brand);
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+padding: 12 24;
+border-radius: 4px;
+text-align: center;
+border: 1px solid var(--text-footer-color);
+border-radius: 4px;
+}
+.filter-button:hover, .filter-button:focus{
+    color: var(--secondary-font-color);
+    background-color: var(--background-color-button);
+   
+}
+.filter-scroll{
+    color: var(--headlines-font);
+    
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.filter-text{
+    color: var(--basic-font);
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.filter-link{
+    text-decoration: none;
+}
+/* container */
+.container{
+    width: 1130px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
