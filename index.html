@@ -11,43 +11,52 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    
-    <header class="top-line">
-      <div class="container">
+    <!-- {Хедер} -->
+    <header >
+      <div class="container top-line ">
+        
       <nav>
+        <div class="main-nav">
         <a class="logo" href="./index.html"> <span class="logoaccent">Web</span><span class="header-logo">Studio</span></a>
-        <ul class="list">
-          <li >
+        <ul class="list header-nav">
+          <li class="header-link" >
             <a href="" class="top-line-nav">Studio</a>
           </li>
-          <li >
+          <li class="header-link">
             <a href="./portfolio.html"class="top-line-nav">Portfolio</a>
           </li>
-          <li >
+          <li class="header-link">
             <a href=""class="top-line-nav">Contacts</a>
           </li>
         </ul>
+      </div>
       </nav>
-      <address>
-        <ul class="list">
-          <li><a href="mailto:info@devstudio.com" class="font-adress">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111" class="font-adress">+11 (000) 111-11-11</a></li>
+    
+      <address class="cotact">
+        
+        <ul class="list adress">
+          <li class="item"><a href="mailto:info@devstudio.com" class="font-adress">info@devstudio.com</a></li>
+          <li class="item"><a href="tel:+110001111111" class="font-adress">+11 (000) 111-11-11</a></li>
         </ul>
+      
       </address>
+    
     </div>
     </header>
   
     <main>
+      <!-- Герой -->
       <section class="hero">
         <div class="container">
         <h1 class="hero-font">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-button">Order Service</button>
       </div>
       </section>
+      <!-- Преимущества -->
       <section>
         <div class="container">
         <h2 class="visually-hidden">advantages</h2>
-        <ul class="list">
+        <ul class="list scroll-item">
           <li>
             <h3 class="scroll">Strategy</h3>
             <p class="scroll-text">
@@ -79,11 +88,12 @@
         </ul>
       </div>
       </section>
+      <!-- что мы делаем -->
       <section>
         <div class="container"> 
         <h2 class="title">What are we doing</h2>
-        <ul class="list">
-          <li>
+        <ul class="list work">
+          <li class="card">
             <img
               src="./images/monitor.jpg"
               alt="monitor"
@@ -109,21 +119,22 @@
           </li>
         </ul>
       </section>
+      <!-- Наша команда -->
       <section class="section-team">
         <div class="container">
         <h2 class="title">Our Team</h2>
-        <ul class="list">
-          <li class="card">
+        <ul class="list staff">
+          <li class="card-worker">
             <img src="./images/mark.jpg" alt="mark" width="264" height="260" />
             <h3 class="scroll">Mark Guerrero</h3>
             <p class="scroll-text">Product Designer</p>
           </li>
-          <li class="card">
+          <li class="card-worker">
             <img src="./images/tom.jpg" alt="tom" width="264" height="260" />
             <h3 class="scroll">Tom Ford</h3>
             <p class="scroll-text">Frontend Developer</p>
           </li>
-          <li class="card">
+          <li class="card-worker">
             <img
               src="./images/camila.jpg"
               alt="camila"
@@ -133,7 +144,7 @@
             <h3 class="scroll">Camila Garcia</h3>
             <p class="scroll-text">Marketing</p>
           </li>
-          <li class="card">
+          <li class="card-worker">
             <img
               src="./images/daniel.jpg"
               alt="daniel"
@@ -147,8 +158,9 @@
       </div>
       </section>
     </main>
+    <!-- Футер -->
     <footer class="footer">
-      <div class="container">
+      <div class="container bloc-footer">
       <a class="logo line-logo" href="./index.html"> <span class="logoaccent">Web</span><span class="footer-logo">Studio</span></a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
