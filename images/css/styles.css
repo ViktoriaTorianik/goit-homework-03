@@ -117,16 +117,10 @@ text-transform: uppercase;
     background-color: var(--headlines-font);
     text-align: center;
 }
-.hero-padding{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 .hero-font{
    
     margin-bottom: 48px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 496px;
+
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -155,10 +149,7 @@ border: 1px solid transparent;
 }
 
 /* advantages */
-.advantages{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 .visually-hidden{
     position: absolute;
     white-space: nowrap;
@@ -175,6 +166,7 @@ border: 1px solid transparent;
     display: flex;
     gap: 24px;
     
+    padding: 120px 140px;
     
 }
 .scroll{
@@ -193,12 +185,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 /* What are we doing */
-
-.work-section{
-    padding-bottom: 72px;
-}
 .work{
     display: flex;
+    padding-bottom: 120px;
     gap: 24px;
 
 }
@@ -226,10 +215,9 @@ text-transform: capitalize;
 .staff{
     display: flex;
     gap: 24px;
+    padding-bottom: 120px;
 }
 .section-team{
-    padding-top: 120px;
-    padding-bottom: 120px;
     background-color: var(--background-color-section);
     
 }
@@ -274,19 +262,13 @@ max-width: 264px;
 .filter-card{
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    gap: 24px;
     padding-bottom: 120px;
 }
 
 .filter-title{
     flex-basis: calc((100%-48) / 3);
 
-}
-
-.filter-description{
-   padding: 32px 0;
-   border: 1px solid var(--text-footer-color);
-   border-top: 0;
 }
 .filter-button{
    
@@ -299,6 +281,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 padding: 12px 24px;
+border-radius: 4px;
 text-align: center;
 border: 1px solid var(--text-footer-color);
 border-radius: 4px;
@@ -306,7 +289,6 @@ border-radius: 4px;
 .filter-button:hover, .filter-button:focus{
     color: var(--secondary-font-color);
     background-color: var(--background-color-button);
-    border: 1px solid transparent;
    
 }
 .filter-scroll{
@@ -337,5 +319,5 @@ letter-spacing: 0.02em;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-   border: 1px solid tomato;
+   
 }
