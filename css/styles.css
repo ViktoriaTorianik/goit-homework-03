@@ -52,7 +52,7 @@ button
     gap: 40px;
 }
 .border-header{
-    border-bottom: 4px solid var(--text-footer-color);
+    border-bottom: 1px solid var(--text-footer-color);
 }
 .top-line{
      display: flex;
@@ -119,11 +119,10 @@ text-transform: uppercase;
 .hero{
     background-color: var(--headlines-font);
     text-align: center;
-}
-.hero-padding{
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .hero-font{
    
     margin-bottom: 48px;
@@ -239,6 +238,7 @@ text-transform: capitalize;
 .card-worker{
     flex-basis: calc((100% - 72px) / 4);
     background-color: var(--secondary-font-color);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-box{
     padding: 32px 16px;
@@ -246,11 +246,10 @@ text-transform: capitalize;
 }
 
 /* footer */
-.bloc-footer{
+
+.footer{
     padding-top: 100px;
     padding-bottom: 100px;
-}
-.footer{
     background-color:var(--headlines-font) ;
 }
 .footer-text{
@@ -294,7 +293,7 @@ max-width: 264px;
 }
 
 .filter-description{
-   padding: 32px 0 32px 16px;
+   padding: 32px 16px 32px 16px;
    border: 1px solid var(--text-footer-color);
    border-top: 0;
    max-width: 360px;
@@ -317,7 +316,7 @@ border-radius: 4px;
 .filter-button:hover, .filter-button:focus{
     color: var(--secondary-font-color);
     background-color: var(--background-color-button);
-    border: 1px solid transparent;
+    border-color: transparent;
    
 }
 .filter-scroll{
